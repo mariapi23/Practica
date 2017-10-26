@@ -21,8 +21,6 @@ import persistencia.DAOUsuario;
 @Controller
 public class UsuarioServlet {//eo
 
- // Aquí está la magia !! Con poner @autowired, spring inyecta automáticamente aquí nuestro bean con el servicio !!
- // No hay que preocuparse de inicializarlo ni gestionarlo ni nada parecido !!
  @Autowired
  private DAOUsuario servicioDAOUsuario;
  
