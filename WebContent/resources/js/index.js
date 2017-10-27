@@ -107,7 +107,6 @@ $( document ).ready(function() {
 	
 	$(document).keypress(function (e){
 		if(e.which == 13){
-			
 			if (tab==1){
 				var email = $('#email').val();
 				var pwd = $('#password').val();
