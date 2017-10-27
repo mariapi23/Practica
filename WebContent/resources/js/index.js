@@ -44,6 +44,7 @@ $( document ).ready(function() {
 	    };
 	});
 	
+	
 	$( "#password-register" ).keyup(function() {
 		$('.error-list').show();
 		var password1 = $("#password-register").val();
